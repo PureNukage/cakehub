@@ -1,8 +1,44 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/roboto/Roboto-Regular.ttf');
+}
+
 body {
+  background-color: rgb(131, 131, 131);
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#container.column{
+  float: left;
+  width: 48%;
+}
+
+h2, h3 {
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 18px;
+  color: Teal;
+  line-height: 2;
+}
+
+#container{
+  margin: 3% auto;
+  columns: 100px 2;
+  background-color: #e0bede;
+  padding: 100px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+  max-width: 950px;
 }
 
 a {
-  color: #00B7FF;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }

@@ -1,6 +1,17 @@
 extends layout
 
 block content
-  div.container
-    h1= title
-    p Welcome to #{title}
+  div#container
+    div.column
+      h2= "DecoPac"
+        ul 
+          li
+            a(href="http://portal.decopac.com/wordpress/") 🍰  DecoPac Internal
+          li
+            a(href="") TBD
+    div.column
+      h3= "External"
+       ul
+         li
+           a(href="") Hi Porfirio
+  // iframe(width='500', height='500', src="https://www.chain.link")
