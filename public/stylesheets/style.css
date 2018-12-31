@@ -4,25 +4,29 @@
 }
 
 body {
+  margin: 0;
   background-color: rgb(131, 131, 131);
-  padding: 50px;
+  padding: 10px;
   font: 14px "Roboto", Helvetica, Arial, sans-serif;
 }
 
-#container{
+#container {
   margin: 3% auto;
   background-color: #e0bede;
-  padding: 100px;
+  padding-top: 50px;
+  padding-left: 75px;
+  padding-bottom: 10px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
   max-width: 950px;
+
 }
 
-.column {
+#container .column  {
   width: 48%;
 }
 
-h2 {
-  vertical-align: middle;
+h1 {
+  color: teal;
 }
 
 ul {
